@@ -726,11 +726,11 @@ body {
 }
 
 .move-up {
-  transform: translateY(-150%);
+  transform: translateY(-200%);
 }
 
 .move-down {
-  transform: translateY(150%);
+  transform: translateY(200%);
 }
 
 /* end */
@@ -1464,7 +1464,7 @@ section {
   /* About / Main Container */
   .main-container {
     flex-direction: column;
-    height: auto;
+    height: 500px;
   }
 
   .tab {
