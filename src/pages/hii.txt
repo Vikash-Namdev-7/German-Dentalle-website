@@ -1,0 +1,55 @@
+#doctor-card{
+  border: 1px solid black;
+  width: 300px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+
+  background: rgba(255,255,255,0.3);
+  backdrop-filter: blur(10px);
+
+  border-radius: 20px;
+
+  position: relative;
+  background: linear-gradient(
+    to right,
+    rgba(255,255,255,0.7),
+    rgba(255,255,255,0.3)
+  );
+}
+
+.doctor-text h2{
+  color: #0f4c75;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.doctor-img img{
+  /* width: 20px;
+  height: 20px; */
+
+  object-fit: cover;
+
+  border-radius: 20px;
+}
+
+.doctor-img{
+  position: absolute;
+  right: 20px;
+}
+
+
+<div className="about">
+      <div className="aboutText">
+        <div>WHY CHOOSE US</div>
+
+        <h2>Before and afters</h2>
+
+        <div>
+          An expert is prosthodontics and geriatrice dental solutions designed{" "}
+          <br />
+          with a strong focus on individualized paitentcare for all age groups.
+        </div>
+      </div>
